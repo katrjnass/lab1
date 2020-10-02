@@ -1,0 +1,8 @@
+D:\repos\lab1\QuequeLib\bin\Debug\netcoreapp3.1\QuequeLib.deps.json
+D:\repos\lab1\QuequeLib\bin\Debug\netcoreapp3.1\QuequeLib.dll
+D:\repos\lab1\QuequeLib\bin\Debug\netcoreapp3.1\QuequeLib.pdb
+D:\repos\lab1\QuequeLib\obj\Debug\netcoreapp3.1\QuequeLib.AssemblyInfoInputs.cache
+D:\repos\lab1\QuequeLib\obj\Debug\netcoreapp3.1\QuequeLib.AssemblyInfo.cs
+D:\repos\lab1\QuequeLib\obj\Debug\netcoreapp3.1\QuequeLib.csproj.CoreCompileInputs.cache
+D:\repos\lab1\QuequeLib\obj\Debug\netcoreapp3.1\QuequeLib.dll
+D:\repos\lab1\QuequeLib\obj\Debug\netcoreapp3.1\QuequeLib.pdb

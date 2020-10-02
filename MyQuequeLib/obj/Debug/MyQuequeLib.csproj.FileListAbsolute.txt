@@ -1,0 +1,5 @@
+D:\repos\lab1\MyQuequeLib\bin\Debug\MyQuequeLib.dll
+D:\repos\lab1\MyQuequeLib\bin\Debug\MyQuequeLib.pdb
+D:\repos\lab1\MyQuequeLib\obj\Debug\MyQuequeLib.csproj.CoreCompileInputs.cache
+D:\repos\lab1\MyQuequeLib\obj\Debug\MyQuequeLib.dll
+D:\repos\lab1\MyQuequeLib\obj\Debug\MyQuequeLib.pdb

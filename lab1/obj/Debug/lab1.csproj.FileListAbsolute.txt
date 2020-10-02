@@ -1,0 +1,10 @@
+D:\repos\lab1\lab1\bin\Debug\lab1.exe.config
+D:\repos\lab1\lab1\bin\Debug\lab1.exe
+D:\repos\lab1\lab1\bin\Debug\lab1.pdb
+D:\repos\lab1\lab1\bin\Debug\MyQuequeLib.dll
+D:\repos\lab1\lab1\bin\Debug\MyQuequeLib.pdb
+D:\repos\lab1\lab1\obj\Debug\lab1.csprojAssemblyReference.cache
+D:\repos\lab1\lab1\obj\Debug\lab1.csproj.CoreCompileInputs.cache
+D:\repos\lab1\lab1\obj\Debug\lab1.csproj.CopyComplete
+D:\repos\lab1\lab1\obj\Debug\lab1.exe
+D:\repos\lab1\lab1\obj\Debug\lab1.pdb

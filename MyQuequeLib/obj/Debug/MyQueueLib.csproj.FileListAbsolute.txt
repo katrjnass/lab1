@@ -1,0 +1,6 @@
+D:\repos\lab1\MyQuequeLib\bin\Debug\MyQuequeLib.dll
+D:\repos\lab1\MyQuequeLib\bin\Debug\MyQuequeLib.pdb
+D:\repos\lab1\MyQuequeLib\obj\Debug\MyQueueLib.csproj.CoreCompileInputs.cache
+D:\repos\lab1\MyQuequeLib\obj\Debug\MyQuequeLib.dll
+D:\repos\lab1\MyQuequeLib\obj\Debug\MyQuequeLib.pdb
+D:\repos\lab1\MyQuequeLib\obj\Debug\MyQueueLib.csprojAssemblyReference.cache
