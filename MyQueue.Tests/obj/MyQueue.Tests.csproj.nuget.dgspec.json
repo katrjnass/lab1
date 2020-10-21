@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\repos\\lab1\\MyQueue.Tests\\MyQueue.Tests.csproj": {}
+  },
+  "projects": {
+    "D:\\repos\\lab1\\lab1\\lab1.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\repos\\lab1\\lab1\\lab1.csproj",
+        "projectName": "lab1",
+        "projectPath": "D:\\repos\\lab1\\lab1\\lab1.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "D:\\repos\\lab1\\MyQuequeLib\\MyQueueLib.csproj": {
+                "projectPath": "D:\\repos\\lab1\\MyQuequeLib\\MyQueueLib.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "D:\\repos\\lab1\\MyQuequeLib\\MyQueueLib.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\repos\\lab1\\MyQuequeLib\\MyQueueLib.csproj",
+        "projectName": "MyQueueLib",
+        "projectPath": "D:\\repos\\lab1\\MyQuequeLib\\MyQueueLib.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "D:\\repos\\lab1\\MyQueue.Tests\\MyQueue.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\repos\\lab1\\MyQueue.Tests\\MyQueue.Tests.csproj",
+        "projectName": "MyQueue.Tests",
+        "projectPath": "D:\\repos\\lab1\\MyQueue.Tests\\MyQueue.Tests.csproj",
+        "packagesPath": "C:\\Users\\borod\\.nuget\\packages\\",
+        "outputPath": "D:\\repos\\lab1\\MyQueue.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\borod\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\repos\\lab1\\lab1\\lab1.csproj": {
+                "projectPath": "D:\\repos\\lab1\\lab1\\lab1.csproj"
+              },
+              "D:\\repos\\lab1\\MyQuequeLib\\MyQueueLib.csproj": {
+                "projectPath": "D:\\repos\\lab1\\MyQuequeLib\\MyQueueLib.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.16.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

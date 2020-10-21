@@ -12,7 +12,7 @@ namespace lab1
         static void Main(string[] args)
         {
             MyQueue<int> numbers = new MyQueue<int>();
-           // Console.WriteLine(numbers.Count);
+           // Console.WriteLine(numbers.size);
             numbers.Enqueue(5);
             numbers.Enqueue(6);
             numbers.Enqueue(7);
@@ -23,6 +23,7 @@ namespace lab1
             numbers.Dequeue();
             foreach (var i in numbers)
                 Console.WriteLine(i);
+            Console.WriteLine("===========");
             numbers.Peek();
             foreach (var i in numbers)
                 Console.WriteLine(i);

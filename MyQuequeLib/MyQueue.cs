@@ -14,41 +14,46 @@ namespace MyQueueLib
     {
         private Item<T> head;
         private Item<T> tail;
-        static public int size { get; private set; } = 0;
-        public int Count { get; private set; } = size; 
+        public int size { get; private set; } = 0;
+         
         public MyQueue(T data)
         {
             CreateQueue(data);
         }
         public MyQueue(int capacity)
         {
-            size = Count = capacity;
-            
+            size = capacity;
         }
         public MyQueue() { }
-        private void CreateQueue(T data)
+        public bool CreateQueue(T data)
         {
             head = new Item<T>(data);
             tail = head;
-            size = Count = 1;
+            size = 1;
+            return true;
         }
-        //добавление элемента в очередь
-        public void Enqueue(T data)
+        public bool Enqueue(T data)
         {
-            if (size == 0)
+            try
             {
-                CreateQueue(data);
-                return;
+                if (size == 0)
+                {
+                    CreateQueue(data);
+                    return true;
+                }
+                var temp = new Item<T>(data);
+                temp.previous = tail;
+                tail.next = temp;
+                tail = temp;
+                size++;
             }
-            
-            var temp = new Item<T>(data);
-            temp.previous = tail;
-            tail.next = temp;
-            tail = temp;
-            size++;
-            Count++;
+            catch
+            {
+                return false;
+            }
+            return true;
         }
-        //извлечение первого элемента из очереди
+        
         public T Dequeue()
         {
             if (size > 0)
@@ -57,13 +62,12 @@ namespace MyQueueLib
                 head = head.next;
                 head.previous = null;
                 size--;
-                Count--;
                 return temp;
             }
             else
-                throw new InvalidOperationException("Очередь пустая"); //вызов метода недопустим для текущего состояния объекта.
+                throw new InvalidOperationException("Очередь пустая"); 
         }
-        //возврат первого элемента без его удаления
+        
         public T Peek()
         {
             if (head != null)
@@ -71,12 +75,19 @@ namespace MyQueueLib
             else
                 throw new InvalidOperationException("Очередь пустая");
         }
-        //очищение очереди
-        public void ClearQueue()
+        
+        public bool ClearQueue()
         {
-            tail = head = null;
-            size = 0;
-            Count = 0;
+            try
+            {
+                tail = head = null;
+                size = 0;
+            }
+            catch
+            {
+                return false;
+            }
+            return true;
         }
        
         public MyQueueEnum<T> GetEnumerator()
